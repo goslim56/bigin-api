@@ -12,7 +12,6 @@ import java.util.Random;
 @RequiredArgsConstructor
 public class MorphemeAnalysis implements Analysis{
     private final ProductRepository productRepository;
-    Random random = new Random();
 
     @Override
     public Optional<Product> analysis() {

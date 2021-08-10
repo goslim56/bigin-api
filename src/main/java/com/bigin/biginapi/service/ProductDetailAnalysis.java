@@ -12,7 +12,6 @@ import java.util.Random;
 @RequiredArgsConstructor
 public class ProductDetailAnalysis implements Analysis{
     private final ProductRepository productRepository;
-    Random random = new Random();
 
     @Override
     public Optional<Product> analysis() {
